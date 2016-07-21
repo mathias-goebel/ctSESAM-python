@@ -24,7 +24,7 @@ def convert_bytes_to_password(hashed_bytes, length):
 		number = number // len(password_characters)
 	return password
 
-master_password = getpass.getpass('Password:')
+master_password = getpass.getpass("Password: ")
 domain = input("Domain: ")
 
 while len(domain) < 1:
